@@ -3,7 +3,7 @@ runtime: python3
 build:
   commands:
     build:
-    - yum install -y pycairo
+    - brew install cairo pkg-config
     - pip install -r requirements.txt
 run:
   command: python app.py
