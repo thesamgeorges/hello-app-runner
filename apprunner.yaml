@@ -4,7 +4,7 @@ build:
   commands:
     build:
     - brew install cairo pkg-config
-    - pip install -r requirements.txt
+    - pip3 install -r requirements.txt
 run:
   command: python app.py
   network:
